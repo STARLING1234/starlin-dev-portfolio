@@ -52,21 +52,30 @@ const Hero = ({ scrollToSection }) => {
             {text}<span className={`${showCursor ? 'opacity-100' : 'opacity-0'} transition-opacity`}>|</span>
           </div>
         </div>
-        
+
         <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto animate-fade-up-delayed leading-relaxed">
           Crafting <span className="text-purple-400 font-semibold">scalable</span> and <span className="text-pink-400 font-semibold">innovative</span> web solutions with 2+ years of experience in modern technologies
         </p>
-        
+
         <div className="flex flex-wrap justify-center gap-4 animate-fade-up-more-delayed">
-          <button onClick={() => scrollToSection('contact')} className="group flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/75">
-            <Mail size={20} /> 
+          <button
+            onClick={() => scrollToSection('contact')}
+            className="group flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/75"
+          >
+            <Mail className="w-5 h-5" />
             <span>Get In Touch</span>
-            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
-          <a href="https://www.linkedin.com/in/starlin-gnanaraj-sudhahar-003a38232/" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-8 py-4 rounded-full transition-all transform hover:scale-105 border border-purple-500/30 hover:border-purple-500/60">
-            <Linkedin size={20} /> 
+
+          <a
+            href="https://www.linkedin.com/in/starlin-gnanaraj-sudhahar-003a38232/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-8 py-4 rounded-full transition-all transform hover:scale-105 border border-purple-500/30 hover:border-purple-500/60"
+          >
+            <FaLinkedinIn className="w-5 h-5" />
             <span>LinkedIn</span>
-            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
 
