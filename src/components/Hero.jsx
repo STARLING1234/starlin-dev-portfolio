@@ -46,7 +46,7 @@ const Hero = ({ scrollToSection }) => {
 
         <div className="animate-fade-up">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-gradient">
-            Starlin Gnanaraj Sudhahar
+            Starlin G
           </h1>
           <div className="text-3xl md:text-4xl text-purple-300 mb-8 h-12 font-mono">
             {text}<span className={`${showCursor ? 'opacity-100' : 'opacity-0'} transition-opacity`}>|</span>
