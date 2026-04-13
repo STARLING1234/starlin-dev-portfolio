@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Mail, Linkedin, Phone, ArrowRight } from 'lucide-react';
-<<<<<<< HEAD
 import { FaLinkedinIn } from 'react-icons/fa6';
-=======
->>>>>>> 6a21ce4 (Updated portfolio UI and content)
 
 const Contact = () => {
   return (
