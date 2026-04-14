@@ -24,7 +24,7 @@ const About = () => {
               <h3 className="text-2xl font-bold text-purple-400">Who I Am</h3>
             </div>
             <p className="text-gray-300 leading-relaxed text-lg">
-              I'm a passionate Full Stack Developer with over 2 years of hands-on experience in building robust web applications. My expertise spans across modern frontend frameworks like <span className="text-purple-400 font-semibold">React.js</span> and <span className="text-purple-400 font-semibold">Angular</span>, coupled with powerful backend technologies including <span className="text-pink-400 font-semibold">Node.js</span> and <span className="text-pink-400 font-semibold">Laravel</span>.
+              Full Stack Developer with 2.10 years of experience in web application development across both frontend and backend technologies. Proficient in building scalable applications using modern frameworks and databases. Eager to contribute in a challenging environment, leveraging skills to deliver high-quality solutions and drive organizational growth.
             </p>
           </div>
 

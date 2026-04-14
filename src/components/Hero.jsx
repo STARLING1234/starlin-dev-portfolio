@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Mail, ChevronRight, ArrowRight } from 'lucide-react';
+import { Mail, ChevronRight, ArrowRight, Phone } from 'lucide-react';
 import { FaLinkedinIn } from 'react-icons/fa6';
 
 const Hero = ({ scrollToSection }) => {
@@ -58,14 +58,14 @@ const Hero = ({ scrollToSection }) => {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 animate-fade-up-more-delayed">
-          <button
-            onClick={() => scrollToSection('contact')}
+          <a
+            href="mailto:starling2269@gmail.com"
             className="group flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-purple-500/50 hover:shadow-purple-500/75"
           >
             <Mail className="w-5 h-5" />
-            <span>Get In Touch</span>
+            <span>Email</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
 
           <a
             href="https://www.linkedin.com/in/starlin-gnanaraj-sudhahar-003a38232/"
@@ -75,6 +75,15 @@ const Hero = ({ scrollToSection }) => {
           >
             <FaLinkedinIn className="w-5 h-5" />
             <span>LinkedIn</span>
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
+
+          <a
+            href="tel:+916374817043"
+            className="group flex items-center gap-2 bg-slate-800 hover:bg-slate-700 px-8 py-4 rounded-full transition-all transform hover:scale-105 border border-purple-500/30 hover:border-purple-500/60"
+          >
+            <Phone className="w-5 h-5" />
+            <span>Call</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>

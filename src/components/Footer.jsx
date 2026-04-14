@@ -3,13 +3,15 @@ import { Mail, Linkedin, Phone } from 'lucide-react';
 import { FaLinkedinIn } from 'react-icons/fa6';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="py-12 px-4 border-t border-purple-500/20 bg-slate-900/50">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
-              Starlin Gnanaraj Sudhahar
+              Starlin G
             </h3>
             <p className="text-gray-400">Full Stack Developer</p>
           </div>
@@ -41,7 +43,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-purple-500/20 text-center text-gray-400">
-          <p>© 2025 Starlin Gnanaraj Sudhahar. All rights reserved.</p>
+          <p>© {currentYear} Starlin G. All rights reserved.</p>
         </div>
       </div>
     </footer>

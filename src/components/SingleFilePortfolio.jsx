@@ -132,7 +132,7 @@ const Portfolio = () => {
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-gradient">
-            Starlin Gnanaraj Sudhahar
+            Starlin G
           </h1>
           <p className="text-2xl md:text-3xl text-purple-300 mb-8">Full Stack Developer</p>
           <p className="text-lg text-gray-300 mb-12 max-w-2xl mx-auto">
@@ -318,7 +318,7 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-purple-500/20">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
-          <p>© 2025 Starlin Gnanaraj Sudhahar. All rights reserved.</p>
+          <p>© 2025 Starlin G. All rights reserved.</p>
           <p className="mt-2 text-sm">Built with React + Vite</p>
         </div>
       </footer>
